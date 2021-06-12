@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: Latoital, sans-serif;
+    font-family: Lato, sans-serif;
     background-color: #ebf2ff;
     overflow-x: hidden;
 }
@@ -43,7 +43,7 @@ body{
 }
 
 .hero__image__container{
-    width: 100px;
+    width: 100%;
 }
 
 .hero__image{
@@ -58,9 +58,16 @@ body{
     .navbar__brand{
         width: 150px;
     }
-    .nav__item{
-        font-size: 20px;
+    .button__primary{
         padding: 20px;
+        font-size: 20px;
+    }
+    .hero__container{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
     }
 }
 @media (min-width: 1020px){
@@ -68,9 +75,11 @@ body{
         max-width: 1010px;
     }
     .hero__image__container{
-        width: 20px;
+        width: 500px;
         height: 500px;
     }
 }
 
-@media (min)
+@media (min-width: 1400px){
+ 
+}
